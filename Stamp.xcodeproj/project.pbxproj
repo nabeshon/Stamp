@@ -11,8 +11,8 @@
 		EB531A6228B8EB2600966574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A6128B8EB2600966574 /* SceneDelegate.swift */; };
 		EB531A6428B8EB2600966574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB531A6328B8EB2600966574 /* ViewController.swift */; };
 		EB531A6728B8EB2600966574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB531A6528B8EB2600966574 /* Main.storyboard */; };
-		EB531A6928B8EB2600966574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB531A6828B8EB2600966574 /* Assets.xcassets */; };
 		EB531A6C28B8EB2600966574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB531A6A28B8EB2600966574 /* LaunchScreen.storyboard */; };
+		EB531A7628B8F48F00966574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB531A7528B8F48F00966574 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		EB531A6128B8EB2600966574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EB531A6328B8EB2600966574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB531A6628B8EB2600966574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB531A6828B8EB2600966574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB531A6B28B8EB2600966574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB531A6D28B8EB2600966574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB531A7528B8F48F00966574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 				EB531A6128B8EB2600966574 /* SceneDelegate.swift */,
 				EB531A6328B8EB2600966574 /* ViewController.swift */,
 				EB531A6528B8EB2600966574 /* Main.storyboard */,
-				EB531A6828B8EB2600966574 /* Assets.xcassets */,
 				EB531A6A28B8EB2600966574 /* LaunchScreen.storyboard */,
 				EB531A6D28B8EB2600966574 /* Info.plist */,
+				EB531A7528B8F48F00966574 /* Assets.xcassets */,
 			);
 			path = Stamp;
 			sourceTree = "<group>";
@@ -126,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB531A6C28B8EB2600966574 /* LaunchScreen.storyboard in Resources */,
-				EB531A6928B8EB2600966574 /* Assets.xcassets in Resources */,
 				EB531A6728B8EB2600966574 /* Main.storyboard in Resources */,
+				EB531A7628B8F48F00966574 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +289,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stamp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集した画像をフォトライブラリに保存します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリ内で編集する画像をフォトライブラリから呼び出します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +318,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stamp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "編集した画像をフォトライブラリに保存します";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリ内で編集する画像をフォトライブラリから呼び出します";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
